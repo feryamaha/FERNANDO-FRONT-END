@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  /* border-left: 1px solid red;
+  border-right: 1px solid red;*/
+}
