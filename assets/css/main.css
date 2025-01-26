@@ -141,6 +141,7 @@ header img:hover {
 /*-- section skills --*/
 .s-hero-skills {
   height: 100vh;
+  align-self: stretch;
 }
 
 .s-hero-skills .container {
@@ -152,7 +153,7 @@ header img:hover {
   opacity: 0.4;
 }
 
-.text-content-skills {
+.text-header-s-hero {
   width: 100%;
   display: flex;
   padding: 80px 0px;
@@ -161,7 +162,7 @@ header img:hover {
 
 .wrapper-skills {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
   width: 100%;
   justify-items: center;
@@ -178,7 +179,7 @@ header img:hover {
   gap: 32px;
   border-radius: 4px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transition: ease .4s;
+  transition: ease 0.4s;
 }
 
 .card-skills img {
@@ -190,4 +191,175 @@ header img:hover {
   background: var(--black-900);
   color: var(--gray-25);
   transform: scale(1.05);
+}
+
+/* -- section experience -- */
+.s-hero-experience {
+  min-width: 100%;
+  height: 1200px;
+  padding: 60px 80px;
+  background-color: var(--black-900);
+}
+
+.text-header-s-hero {
+  color: var(--gray-25);
+}
+
+.wrapper-experience {
+  display: flex;
+  padding: 40px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.card-experience {
+  display: flex;
+  padding: 30px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  align-self: stretch;
+  box-shadow: #000 0px 7px 29px 0px;
+  transition: ease 0.4s;
+  border-radius: 10px;
+  border: 1px solid var(--black-800);
+}
+
+.card-experience:hover {
+  cursor: wait;
+  background-color: var(--gray-25);
+  color: black;
+}
+
+.box-content-experience img {
+  width: 100px;
+}
+
+.card-tertiary img {
+  width: 50px;
+}
+
+.box-content-experience {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--black-900);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.box-content-experience h3 {
+  color: var(--gray-400);
+}
+
+.card-experience p {
+  color: var(--gray-700);
+}
+
+.card-experience:hover p {
+  color: var(--black-900);
+}
+
+/* -- section about-me -- */
+.s-hero-about {
+  display: flex;
+  align-self: stretch;
+  width: 100%;
+  padding: 60px 0px;
+}
+.wrapper-about {
+  display: flex;
+  width: 100%;
+  padding: 0px 32px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.wrapper-about img {
+  height: 70%;
+  border-radius: 42px;
+  align-self: stretch;
+}
+
+.box-content-about {
+  display: flex;
+  width: 610px;
+  height: 572px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.text-content-about h3 {
+  margin-bottom: 20px;
+}
+
+/* -- section project -- */
+
+.s-hero-project {
+  width: 100%;
+  background-color: var(--black-900);
+  display: flex;
+  padding: 60px 80px;
+  flex-direction: column;
+  /* align-items: flex-start;*/
+}
+
+.card-project {
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  justify-content: space-between;
+  box-shadow: #000 0px 7px 29px 0px;
+  border-radius: 10px;
+  border: 1px solid var(--black-400);
+  margin: 20px 0;
+}
+
+.card-project img {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.card-project h1,
+.card-project h3 {
+  color: var(--gray-25);
+}
+
+.card-project p {
+  color: var(--gray-700);
+}
+
+.card-project a {
+  color: var(--gray-25);
+  border-bottom: 1px solid var(--gray-25);
+  transition: ease 0.4s;
+}
+
+.card-project a:hover {
+  color: var(--gray-900);
+  border-bottom: 1px solid var(--gray-900);
+}
+
+.box-content-project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  align-self: stretch;
+}
+
+.box-content-project img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
 }
