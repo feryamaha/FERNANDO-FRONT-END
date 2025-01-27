@@ -201,7 +201,7 @@ header img:hover {
   background-color: var(--black-900);
 }
 
-.text-header-s-hero {
+.sh-experience {
   color: var(--gray-25);
 }
 
@@ -300,7 +300,6 @@ header img:hover {
 }
 
 /* -- section project -- */
-
 .s-hero-project {
   width: 100%;
   background-color: var(--black-900);
@@ -313,15 +312,16 @@ header img:hover {
 .card-project {
   width: 100%;
   display: flex;
-  padding: 30px;
+  padding: 30px 10px;
   align-items: center;
   gap: 40px;
   align-self: stretch;
   justify-content: space-between;
   box-shadow: #000 0px 7px 29px 0px;
   border-radius: 10px;
-  border: 1px solid var(--black-400);
+  border: 1px solid var(--black-800);
   margin: 20px 0;
+  background-color: var(--black-400);
 }
 
 .card-project img {
