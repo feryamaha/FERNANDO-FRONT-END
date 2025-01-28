@@ -17,7 +17,8 @@ p {
 
 h1 {
   font-family: "Open Sans";
-  font-size: clamp(1rem, 3vw, 5.8rem);
+  font-size: clamp(1rem, 3vw, 4.8rem);
+  font-size: 4.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: 110%;
@@ -26,7 +27,8 @@ h1 {
 h2 {
   font-family: "Neue Haas Grotesk Display Pro";
   font-size: 4rem;
-  font-size: clamp(1rem, 5vw, 7.8rem);
+  font-size: clamp(1rem, 5vw, 7.4rem);
+  font-size: 7.4rem;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
@@ -77,4 +79,12 @@ h5 {
 
 .button:hover {
   transform: translateY(-2px);
+}
+
+.header-s-hero-gray {
+  color: var(--gray-25);
+}
+
+.header-s-hero-black {
+  color: var(--black-900);
 }
