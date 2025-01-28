@@ -105,7 +105,7 @@
   .card-experience,
   .wrapper-experience,
   .box-content-experience {
-    padding: 1%;
+    padding: 3%;
   }
 
   h3 {
@@ -159,15 +159,17 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  header img {
-    max-width: 70%;
-  }
-
+@media screen and (max-width: 520px) {
   h1 {
     display: flex;
     font-size: 2.4rem;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header img {
+    max-width: 70%;
   }
 
   .text-content-about h3 {
